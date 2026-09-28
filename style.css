@@ -1,0 +1,166 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    align-items:flex-end;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #4caf50;
+    transition: color 0.3s;
+}
+.home {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.home h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.home p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #388e3c;
+}
+
+
+/* Sections */
+
+section {
+    padding: 50px 10%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#about {
+    background-color: #ffffff;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.6;
+}
+
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    background-color: white;
+    padding: 15px 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.project h3 {
+    color: #4caf50;
+}
+
+.project p {
+    line-height: 1.5;
+}
+
+#contact {
+    background-color: white;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .home h2 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .project {
+        width: 100%;
+    }
+}
